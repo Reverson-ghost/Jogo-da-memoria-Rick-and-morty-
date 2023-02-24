@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(190deg, #000000 0%, #0e73c58a 50%, #15bfdd 75%, #000000 100%);      
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilizaçao do cabeçalho*/
+.main {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #000000 0%, #0e73c58a 50%, #15bfdd 75%, #000000 100%);      
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+     position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.list-itens {
+    list-style: none;
+    display: block;
+    padding: 15px;
+    
+}
+
+.nav-itens {
+    display: inline;
+    padding: 100px;
+}
+
+.nav-itens a {
+    text-decoration: none;
+    color: rgb(0, 242, 255);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-itens :hover {
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.8s;
+    border-radius: 5%;
+    box-shadow: 1px 2px 10px 2px rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+/* Fimm...*/
+/*estilizaçao para o texto de descriçao */
+.main-img {
+    position: relative;
+    width: 99%;
+    height: 100%;
+    background-image: url(img/download2-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor:pointer;
+}
+
+.texto-main {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+.subtitulo {
+    display: flex;
+    padding: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(8, 181, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao {
+    font-size: 20px;
+    color: rgb(59, 153, 92);
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/*fimm*/
+/*estilização das imagens*/
+.img-banner {
+    position: relative;
+    width: 100%;
+}
+
+.imagens-serie {
+
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.imagens {
+    border-radius: 45%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline;
+    top: 60px;
+    left: 41%;
+    opacity: 0.7;
+    padding: 10px
+}
+
+/*fim*/
+/*Estilização para o botao*/
+.btn-wubba {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 2%;
+    left: 40%;
+    background-color: green;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+/*fimm*/
+/*Personagens da serie*/
+.personagens {
+    width: 98%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Personagens-principais {
+    position: relative;
+    display: flex;
+    font-size: 35px;
+    color: rgb(0, 255, 255);
+    align-items: center;
+    justify-content: center;
+    left: 1%;
+    width: 100%;
+    margin: 1%;
+    padding: 3%;
+
+}
+
+.nome-personagens {
+    display: inline;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.info-personagem {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0, 255, 255);
+}
+
+/*fimm*/
+/*personalizaçao para os trailers*/
+.trailer {
+    width: 100%;
+    height: 100%;
+
+}
+
+.gifs {
+    display: flex;
+}
+.gifs-personagens:hover{
+    transform:scale(2.2);
+    transition: 0.9s;
+    cursor: pointer;
+
+}
+.gifs-personagens {
+    width: 275px;
+    height: 275px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 0px rgb(0, 255, 255);
+}
+
+.cenas {
+    font-size: 30px;
+    color: rgb(2, 255, 61);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 25px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 255, 255);
+}
+
+.btn-c137 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 2%;
+    left: 45%;
+    background-color: green;
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+footer {
+    color: aliceblue;
+}
+
+#footer {
+    color: aqua;
+}
+
+.frases {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px aqua;
+}
+
+.img-final {
+    width: 300px;
+    height: 500px;
+    position: relative;
+
+}

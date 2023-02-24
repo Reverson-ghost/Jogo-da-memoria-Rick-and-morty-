@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /*background-image: radial-gradient(circle, rgb(255, 255, 255)5%,
+     rgb(201, 201, 35)5%,
+      rgb(164, 230, 164) 5%,
+       rgba(8, 32, 253, 0.205) 10%,
+        rgb(90, 131, 158) 10%,
+         rgba(3, 255, 58, 0.541) 80%);
+         */
+         background: linear-gradient(90deg, #000000 0%, #0e73c58a 50%, #15bfdd 75%, #000000 100%);      
+
+      }
+
+.cabecalho {
+    width: 100%;
+    display: block;
+    position: relative;
+
+}
+
+.container p{
+    top: 30px;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+    left: 90px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px 1px rgb(0, 255, 42);
+    border-radius: 10px;
+
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+
+}
+
+.login_input {
+    width: 300px;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 255, 0, 0.616);
+}
+
+.login_header{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+.btn{
+    top: 5%;
+    position: relative;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 150px;
+
+}
+.btn:disabled{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: 2px solid rgb(85, 83, 83);
+    cursor: not-allowed;
+}
+
+footer {
+    bottom: 0px;
+}
+.logo_rick{
+    width:100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    bottom:100px;   
+}
+h1{
+    font-size: 25px;
+    color: rgb(1, 118, 122);
+    
+}
+.saudacao{
+    width: 100%;
+    font-size: 25px;
+    color: rgb(4, 87, 90);
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 40px;
+    left: 10px;
+  
+}

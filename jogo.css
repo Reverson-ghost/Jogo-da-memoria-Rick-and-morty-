@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    background: linear-gradient(90deg, #000000 0%, #0e73c58a 50%, #15bfdd 75%, #000000 100%);      
+}
+.grid {
+    display: grid;
+    width: 100%;
+    max-width: 800px;
+    gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+    /*1 fr = uma fraçao*/
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 1px white;
+}
+
+.card {
+    aspect-ratio: 3/4;
+    width: 100%;
+    background: black;
+    position: relative;
+    transition: all 400ms ease;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    box-shadow: 1px 1px 1px 1px #ffffff63;
+    animation: flip 1s ease-in-out infinite ;
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.front {
+    background-position: center;
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+.back {
+    background-image: url("https://i.pinimg.com/236x/9e/fd/8d/9efd8d7d411a744b0c62ac5008566a4a.jpg");
+    background-position: center;
+    background-size: cover;
+    backface-visibility: hidden;
+
+}
+.reveal-card {
+    transform: rotateY(180deg);
+}
+.disabled-card {
+    pointer-events: none;
+    filter: saturate(0);
+    opacity: 0.5;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    padding: 20px;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    max-width: 800px;
+
+}
